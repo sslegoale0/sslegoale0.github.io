@@ -44,7 +44,7 @@ nav{
     margin-right: 100px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     transition: 1s;
 }
@@ -119,7 +119,7 @@ nav{
 .service-title{
     margin-bottom: 10px;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -193,7 +193,7 @@ nav{
     margin-right: 100px;
     position: relative;
     color: rgb(180, 180, 180);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     cursor: pointer;
     transition: 1s;
@@ -293,12 +293,43 @@ span{
 .project-title{
     margin-bottom: 10px;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .project-text{
     color: rgb(0, 0, 0);
+}
+
+/* --------------------------------------------------------Report-------------------------------------------------------- */
+
+#report{
+    padding: 10px 100px;
+    width: 100%;
+}
+
+.report-title{
+    margin-top: 75px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.report-image{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+}
+
+.report-heading{
+    margin-bottom: 10px;
+    color: rgb(150, 120, 0);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.report-text{
+    color: rgb(180, 180, 180);
 }
 
 /* --------------------------------------------------------Footer-------------------------------------------------------- */
@@ -351,7 +382,7 @@ nav{
     margin-right: 0;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     transition: 1s;
 }
@@ -449,7 +480,7 @@ nav{
 .service-title{
     margin-bottom: 10px;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -524,7 +555,7 @@ nav{
     margin-right: 50px;
     position: relative;
     color: rgb(180, 180, 180);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     cursor: pointer;
     transition: 1s;
@@ -624,12 +655,43 @@ span{
 .project-title{
     margin-bottom: 10px;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .project-text{
     color: rgb(0, 0, 0);
+}
+
+/* --------------------------------------------------------Report-------------------------------------------------------- */
+
+#report{
+    padding: 10px;
+    width: 100%;
+}
+
+.report-title{
+    margin-top: 75px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.report-image{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+}
+
+.report-heading{
+    margin-bottom: 10px;
+    color: rgb(150, 120, 0);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.report-text{
+    color: rgb(180, 180, 180);
 }
 
 /* --------------------------------------------------------Footer-------------------------------------------------------- */
