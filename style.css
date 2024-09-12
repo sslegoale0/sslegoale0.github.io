@@ -113,7 +113,7 @@ nav{
 #service-icon{
     margin-bottom: 25px;
     color: rgb(150, 120, 0);
-    font-size: 100px;
+    font-size: 120px;
 }
 
 .service-title{
@@ -328,10 +328,6 @@ span{
     font-weight: 700;
 }
 
-.report-text{
-    color: rgb(180, 180, 180);
-}
-
 /* --------------------------------------------------------Footer-------------------------------------------------------- */
 
 #footer{
@@ -474,7 +470,7 @@ nav{
 #service-icon{
     margin-bottom: 25px;
     color: rgb(150, 120, 0);
-    font-size: 100px;
+    font-size: 120px;
 }
 
 .service-title{
