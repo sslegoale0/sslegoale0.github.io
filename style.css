@@ -11,7 +11,7 @@ html{
 
 body{
     background: rgb(0, 0, 0);
-    color: rgb(180, 180, 180);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
     text-align: left;
@@ -24,7 +24,7 @@ body{
     padding: 10px 100px;
     width: 100%;
     position: fixed;
-    background: rgb(180, 180, 180);
+    background: rgb(255, 255, 255);
     z-index: 99;
 }
 
@@ -107,7 +107,7 @@ nav{
 .service{
     padding: 25px;
     border: 5px solid rgb(0, 0, 0);
-    background: rgb(180, 180, 180);
+    background: rgb(255, 255, 255);
 }
 
 #service-icon{
@@ -130,7 +130,7 @@ nav{
 /* --------------------------------------------------------About-------------------------------------------------------- */
 
 #about{
-    padding: 10px 100px;
+    padding: 10px 0px 0px 0px;
     width: 100%;
 }
 
@@ -169,7 +169,7 @@ nav{
 .about-link{
     padding: 20px 25px;
     width: fit-content;
-    background: rgb(180, 180, 180);
+    background: rgb(255, 255, 255);
     text-decoration: none;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -181,7 +181,11 @@ nav{
 }
 
 .about-down{
-    margin: 60px 0 20px;
+    margin: 60px 0 0 0;
+    padding: 10px 100px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .about-tab{
@@ -192,7 +196,7 @@ nav{
     margin-bottom: 20px;
     margin-right: 100px;
     position: relative;
-    color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
@@ -276,7 +280,7 @@ span{
     padding: 25px;
     height: 100%;
     border: 5px solid rgb(0, 0, 0);
-    background: rgb(180, 180, 180);
+    background: rgb(255, 255, 255);
     transition: 1s;
 }
 
@@ -355,7 +359,7 @@ span{
     top: 0;
     left: -120px;
     position: fixed;
-    background: rgb(180, 180, 180);
+    background: rgb(255, 255, 255);
     z-index: 99;
     transition: 1s;
 }
@@ -418,7 +422,7 @@ nav{
     padding: 10px;
     width: 100%;
     position: fixed;
-    background: rgb(180, 180, 180);
+    background: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 32px;
     transition: 1s;
@@ -464,7 +468,7 @@ nav{
 .service{
     padding: 25px;
     border: 5px solid rgb(0, 0, 0);
-    background: rgb(180, 180, 180);
+    background: rgb(255, 255, 255);
 }
 
 #service-icon{
@@ -487,12 +491,13 @@ nav{
 /* --------------------------------------------------------About-------------------------------------------------------- */
 
 #about{
-    padding: 10px;
+    padding: 10px 0;
     width: 100%;
 }
 
 .about-up{
     margin-top: 75px;
+    padding: 10px;
     display: block;
     align-items: center;
     justify-content: space-between;
@@ -527,7 +532,7 @@ nav{
 .about-link{
     padding: 20px 25px;
     width: fit-content;
-    background: rgb(180, 180, 180);
+    background: rgb(255, 255, 255);
     text-decoration: none;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -539,7 +544,11 @@ nav{
 }
 
 .about-down{
-    margin: 60px 0 20px;
+    margin: 60px 0 0 0;
+    padding: 10px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .about-tab{
@@ -550,7 +559,7 @@ nav{
     margin-bottom: 20px;
     margin-right: 50px;
     position: relative;
-    color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
@@ -634,7 +643,7 @@ span{
     padding: 25px;
     height: 100%;
     border: 5px solid rgb(0, 0, 0);
-    background: rgb(180, 180, 180);
+    background: rgb(255, 255, 255);
     transition: 1s;
 }
 
@@ -684,10 +693,6 @@ span{
     color: rgb(150, 120, 0);
     font-size: 20px;
     font-weight: 700;
-}
-
-.report-text{
-    color: rgb(180, 180, 180);
 }
 
 /* --------------------------------------------------------Footer-------------------------------------------------------- */
