@@ -15,7 +15,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-    letter-spacing: 0px;
+    letter-spacing: -0.5px;
 }
 
 /* --------------------------------------------------------Header-------------------------------------------------------- */
@@ -342,9 +342,27 @@ span{
     font-weight: 700;
 }
 
+.report-heading-2{
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .report-text{
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
+}
+
+.report-link{
+    text-decoration: line;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    transition: 1s;
+}
+
+.report-link:hover{
+    color: rgb(150, 120, 0);
 }
 
 /* --------------------------------------------------------Footer-------------------------------------------------------- */
@@ -717,6 +735,13 @@ span{
     margin-bottom: 10px;
     color: rgb(150, 120, 0);
     font-size: 20px;
+    font-weight: 700;
+}
+
+.report-heading-2{
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
     font-weight: 700;
 }
 
