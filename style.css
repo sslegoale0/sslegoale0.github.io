@@ -10,12 +10,12 @@ html{
 }
 
 body{
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-    letter-spacing: 0px;
+    letter-spacing: -0.5px;
 }
 
 /* --------------------------------------------------------Header-------------------------------------------------------- */
@@ -24,7 +24,7 @@ body{
     padding: 10px 100px;
     width: 100%;
     position: fixed;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     z-index: 99;
 }
 
@@ -43,7 +43,7 @@ nav{
 .nav-link{
     margin-right: 100px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 20px;
     font-weight: 700;
     transition: 1s;
@@ -60,7 +60,7 @@ nav{
 .nav-contact{
     margin-left: 100px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 33px;
     transition: 1s;
 }
@@ -106,8 +106,8 @@ nav{
 
 .service{
     padding: 25px;
-    border: 7.5px solid rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+    border: 7.5px solid rgb(180, 180, 180);
+    background: rgb(0, 0, 0);
 }
 
 #service-icon{
@@ -118,13 +118,13 @@ nav{
 
 .service-title{
     margin-bottom: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 20px;
     font-weight: 700;
 }
 
 .service-text{
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
 }
 
 /* --------------------------------------------------------About-------------------------------------------------------- */
@@ -169,9 +169,9 @@ nav{
 .about-link{
     padding: 20px 25px;
     width: fit-content;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     cursor: pointer;
     transition: 1s;
 }
@@ -184,8 +184,8 @@ nav{
     margin: 60px 0 0 0;
     padding: 20px 100px;
     width: 100%;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
 }
 
 .about-tab{
@@ -196,7 +196,7 @@ nav{
     margin-bottom: 30px;
     margin-right: 100px;
     position: relative;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
@@ -278,14 +278,14 @@ nav{
 
 .project-link{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
 }
 
 .project{
     padding: 25px;
     height: 100%;
-    border: 7.5px solid rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+    border: 7.5px solid rgb(180, 180, 180);
+    background: rgb(0, 0, 0);
     transition: 1s;
 }
 
@@ -301,13 +301,13 @@ nav{
 
 .project-title{
     margin-bottom: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 20px;
     font-weight: 700;
 }
 
 .project-text{
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
 }
 
 /* --------------------------------------------------------Report-------------------------------------------------------- */
@@ -336,7 +336,7 @@ nav{
 
 .report-down{
     padding: 20px 100px;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
 }
 
 .report-heading{
@@ -351,7 +351,7 @@ nav{
 
 .report-link{
     text-decoration: line;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-weight: 700;
     transition: 1s;
 }
@@ -387,7 +387,7 @@ nav{
     top: 0;
     left: -120px;
     position: fixed;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     z-index: 99;
     transition: 1s;
 }
@@ -409,7 +409,7 @@ nav{
 .nav-link{
     margin-right: 0;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 20px;
     font-weight: 700;
     transition: 1s;
@@ -426,7 +426,7 @@ nav{
 .nav-contact{
     margin-left: 0;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 33px;
     transition: 1s;
 }
@@ -440,7 +440,7 @@ nav{
     position: absolute;
     top: 10px;
     left: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 32px;
     transition: 1s;
 }
@@ -450,8 +450,8 @@ nav{
     padding: 10px;
     width: 100%;
     position: fixed;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 32px;
     transition: 1s;
 }
@@ -495,8 +495,8 @@ nav{
 
 .service{
     padding: 25px;
-    border: 7.5px solid rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+    border: 7.5px solid rgb(180, 180, 180);
+    background: rgb(0, 0, 0);
 }
 
 #service-icon{
@@ -507,13 +507,13 @@ nav{
 
 .service-title{
     margin-bottom: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 20px;
     font-weight: 700;
 }
 
 .service-text{
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
 }
 
 /* --------------------------------------------------------About-------------------------------------------------------- */
@@ -560,9 +560,9 @@ nav{
 .about-link{
     padding: 20px 25px;
     width: fit-content;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     cursor: pointer;
     transition: 1s;
 }
@@ -576,7 +576,7 @@ nav{
     padding: 20px 10px;
     width: 100%;
     background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
 }
 
 .about-tab{
@@ -587,7 +587,7 @@ nav{
     margin-bottom: 30px;
     margin-right: 50px;
     position: relative;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
@@ -665,14 +665,14 @@ span{
 
 .project-link{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
 }
 
 .project{
     padding: 25px;
     height: 100%;
-    border: 7.5px solid rgb(0, 0, 0);
-    background: rgb(255, 255, 255);
+    border: 7.5px solid rgb(180, 180, 180);
+    background: rgb(0, 0, 0);
     transition: 1s;
 }
 
@@ -688,13 +688,13 @@ span{
 
 .project-title{
     margin-bottom: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 20px;
     font-weight: 700;
 }
 
 .project-text{
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
 }
 
 /* --------------------------------------------------------Report-------------------------------------------------------- */
@@ -723,7 +723,7 @@ span{
 
 .report-down{
     padding: 20px 10px;
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
 }
 
 .report-heading{
@@ -735,14 +735,14 @@ span{
 
 .report-heading-2{
     margin-bottom: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
     font-size: 16px;
     font-weight: 700;
 }
 
 .report-text{
     margin-bottom: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(180, 180, 180);
 }
 
 /* --------------------------------------------------------Footer-------------------------------------------------------- */
