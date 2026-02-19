@@ -10,12 +10,12 @@ html{
 }
 
 body{
-    background: rgb(180, 180, 180);
-    color: rgb(0, 0, 0);
-    font-size: 16px;
+    background: rgb(240, 240, 240);
+    color: rgb(60, 60, 60);
+    font-size: 15px;
     font-weight: 400;
     text-align: left;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
 }
 
 /* --------------------------------------------------------Header-------------------------------------------------------- */
@@ -24,7 +24,7 @@ body{
     padding: 10px 100px;
     width: 100%;
     position: fixed;
-    background: rgb(0, 0, 0);
+    background: rgb(225, 225, 225);
     z-index: 99;
 }
 
@@ -43,30 +43,30 @@ nav{
 .nav-link{
     margin-right: 100px;
     text-decoration: none;
-    color: rgb(180, 180, 180);
-    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 17.5px;
     font-weight: 700;
     transition: 1s;
 }
 
 .nav-link:hover{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 .active-link{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 .nav-contact{
     margin-left: 100px;
     text-decoration: none;
-    color: rgb(180, 180, 180);
+    color: rgb(60, 60, 60);
     font-size: 33px;
     transition: 1s;
 }
 
 .nav-contact:hover{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 #nav-close{
@@ -92,7 +92,7 @@ nav{
 
 .home-title{
     margin-bottom: 40px;
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
     font-size: 54px;    
 }
 
@@ -106,25 +106,25 @@ nav{
 
 .service{
     padding: 25px;
-    border: 7.5px solid rgb(180, 180, 180);
-    background: rgb(0, 0, 0);
+    border: 3.75px solid rgb(225, 225, 225);
+    background: rgb(240, 240, 240);
 }
 
 #service-icon{
     margin-bottom: 25px;
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
     font-size: 120px;
 }
 
 .service-title{
     margin-bottom: 10px;
-    color: rgb(180, 180, 180);
-    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 17.5px;
     font-weight: 700;
 }
 
 .service-text{
-    color: rgb(180, 180, 180);
+    color: rgb(60, 60, 60);
 }
 
 /* --------------------------------------------------------About-------------------------------------------------------- */
@@ -162,30 +162,30 @@ nav{
 
 .about-title{
     margin-bottom: 40px;
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
     font-size: 48px;
 }
 
 .about-link{
     padding: 20px 25px;
     width: fit-content;
-    background: rgb(0, 0, 0);
+    background: rgb(225, 225, 225);
     text-decoration: none;
-    color: rgb(180, 180, 180);
+    color: rgb(60, 60, 60);
     cursor: pointer;
     transition: 1s;
 }
 
 .about-link:hover{
-    background: rgb(150, 120, 0);
+    background: rgb(180, 150, 0);
 }
 
 .about-down{
     margin: 60px 0 0 0;
     padding: 20px 100px;
     width: 100%;
-    background: rgb(0, 0, 0);
-    color: rgb(180, 180, 180);
+    background: rgb(225, 225, 225);
+    color: rgb(60, 60, 60);
 }
 
 .about-tab{
@@ -196,8 +196,8 @@ nav{
     margin-bottom: 30px;
     margin-right: 100px;
     position: relative;
-    color: rgb(180, 180, 180);
-    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 17.5px;
     font-weight: 700;
     cursor: pointer;
     transition: 1s;
@@ -206,16 +206,16 @@ nav{
 .tab-link::after{
     content: "";
     width: 0;
-    height: 7.5px;
+    height: 3.5px;
     position: absolute;
     left: 0;
     bottom: -10px;
-    background: rgb(150, 120, 0);
+    background: rgb(180, 150, 0);
     transition: 1s;
 }
 
 .tab-link:hover{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 .tab-link:hover::after{
@@ -223,7 +223,7 @@ nav{
 }
 
 .active-tab{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 .active-tab::after{
@@ -248,7 +248,7 @@ nav{
 }
 
 .title{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
     font-weight: 700;
 }
 
@@ -284,13 +284,13 @@ nav{
 .project{
     padding: 25px;
     height: 100%;
-    border: 7.5px solid rgb(180, 180, 180);
-    background: rgb(0, 0, 0);
+    border: 3.75px solid rgb(225, 225, 225);
+    background: rgb(240, 240, 240);
     transition: 1s;
 }
 
 .project:hover{
-    border: 7.5px solid rgb(150, 120, 0);
+    border: 3.75px solid rgb(180, 150, 0);
 }
 
 .project-image{
@@ -301,13 +301,13 @@ nav{
 
 .project-title{
     margin-bottom: 10px;
-    color: rgb(180, 180, 180);
-    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 17.5px;
     font-weight: 700;
 }
 
 .project-text{
-    color: rgb(180, 180, 180);
+    color: rgb(60, 60, 60);
 }
 
 /* --------------------------------------------------------Report-------------------------------------------------------- */
@@ -351,13 +351,13 @@ nav{
 
 .report-link{
     text-decoration: line;
-    color: rgb(180, 180, 180);
-    font-weight: 700;
+    color: rgb(60, 60, 60);
+    font-weight: 400;
     transition: 1s;
 }
 
 .report-link:hover{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 /* --------------------------------------------------------Footer-------------------------------------------------------- */
@@ -365,11 +365,11 @@ nav{
 #footer{
     padding: 10px 100px;
     width: 100%;
-    background: rgb(150, 120, 0);
+    background: rgb(180, 150, 0);
 }
 
 .footer-text{
-    color: rgb(0, 0, 0);
+    color: rgb(60, 60, 60);
 }
 
 
@@ -377,6 +377,27 @@ nav{
 /* --------------------------------------------------------CSS for Small Screens-------------------------------------------------------- */
 
 @media only screen and (max-width: 600px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Scada", sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(240, 240, 240);
+    color: rgb(60, 60, 60);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0px;
+}
+
 
 /* --------------------------------------------------------Header-------------------------------------------------------- */
 
@@ -387,7 +408,7 @@ nav{
     top: 0;
     left: -120px;
     position: fixed;
-    background: rgb(0, 0, 0);
+    background: rgb(225, 225, 225);
     z-index: 99;
     transition: 1s;
 }
@@ -409,30 +430,30 @@ nav{
 .nav-link{
     margin-right: 0;
     text-decoration: none;
-    color: rgb(180, 180, 180);
-    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 17.5px;
     font-weight: 700;
     transition: 1s;
 }
 
 .nav-link:hover{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 .active-link{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 .nav-contact{
     margin-left: 0;
     text-decoration: none;
-    color: rgb(180, 180, 180);
+    color: rgb(60, 60, 60);
     font-size: 33px;
     transition: 1s;
 }
 
 .nav-contact:hover{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 #nav-close{
@@ -440,8 +461,8 @@ nav{
     position: absolute;
     top: 10px;
     left: 10px;
-    color: rgb(180, 180, 180);
-    font-size: 32px;
+    color: rgb(60, 60, 60);
+    font-size: 33px;
     transition: 1s;
 }
 
@@ -450,18 +471,18 @@ nav{
     padding: 10px;
     width: 100%;
     position: fixed;
-    background: rgb(0, 0, 0);
-    color: rgb(180, 180, 180);
-    font-size: 32px;
+    background: rgb(225, 225, 225);
+    color: rgb(60, 60, 60);
+    font-size: 33px;
     transition: 1s;
 }
 
 #nav-close:hover{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 #nav-open:hover{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 
@@ -481,7 +502,7 @@ nav{
 
 .home-title{
     margin-bottom: 40px;
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
     font-size: 54px;
 }
 
@@ -495,25 +516,25 @@ nav{
 
 .service{
     padding: 25px;
-    border: 7.5px solid rgb(180, 180, 180);
-    background: rgb(0, 0, 0);
+    border: 3.75px solid rgb(225, 225, 225);
+    background: rgb(240, 240, 240);
 }
 
 #service-icon{
     margin-bottom: 25px;
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
     font-size: 120px;
 }
 
 .service-title{
     margin-bottom: 10px;
-    color: rgb(180, 180, 180);
-    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 17.5px;
     font-weight: 700;
 }
 
 .service-text{
-    color: rgb(180, 180, 180);
+    color: rgb(60, 60, 60);
 }
 
 /* --------------------------------------------------------About-------------------------------------------------------- */
@@ -553,30 +574,30 @@ nav{
 
 .about-title{
     margin-bottom: 40px;
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
     font-size: 48px;
 }
 
 .about-link{
     padding: 20px 25px;
     width: fit-content;
-    background: rgb(0, 0, 0);
+    background: rgb(225, 225, 225);
     text-decoration: none;
-    color: rgb(180, 180, 180);
+    color: rgb(60, 60, 60);
     cursor: pointer;
     transition: 1s;
 }
 
 .about-link:hover{
-    background: rgb(150, 120, 0);
+    background: rgb(180, 150, 0);
 }
 
 .about-down{
     margin: 60px 0 0 0;
     padding: 20px 10px;
     width: 100%;
-    background: rgb(0, 0, 0);
-    color: rgb(180, 180, 180);
+    background: rgb(225, 225, 225);
+    color: rgb(60, 60, 60);
 }
 
 .about-tab{
@@ -587,8 +608,8 @@ nav{
     margin-bottom: 30px;
     margin-right: 50px;
     position: relative;
-    color: rgb(180, 180, 180);
-    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 17.5px;
     font-weight: 700;
     cursor: pointer;
     transition: 1s;
@@ -597,16 +618,16 @@ nav{
 .tab-link::after{
     content: "";
     width: 0;
-    height: 7.5px;
+    height: 3.75px;
     position: absolute;
     left: 0;
     bottom: -10px;
-    background: rgb(150, 120, 0);
+    background: rgb(180, 150, 0);
     transition: 1s;
 }
 
 .tab-link:hover{
-    color: rgb(150, 120, 0);
+    color: rgb(180, 150, 0);
 }
 
 .tab-link:hover::after{
@@ -665,19 +686,19 @@ span{
 
 .project-link{
     text-decoration: none;
-    color: rgb(180, 180, 180);
+    color: rgb(60, 60, 60);
 }
 
 .project{
     padding: 25px;
     height: 100%;
-    border: 7.5px solid rgb(180, 180, 180);
-    background: rgb(0, 0, 0);
+    border: 3.75px solid rgb(225, 225, 225);
+    background: rgb(240, 240, 240);
     transition: 1s;
 }
 
 .project:hover{
-    border: 7.5px solid rgb(150, 120, 0);
+    border: 7.5px solid rgb(180, 150, 0);
 }
 
 .project-image{
@@ -688,13 +709,13 @@ span{
 
 .project-title{
     margin-bottom: 10px;
-    color: rgb(180, 180, 180);
-    font-size: 20px;
+    color: rgb(60, 60, 60);
+    font-size: 17.5px;
     font-weight: 700;
 }
 
 .project-text{
-    color: rgb(180, 180, 180);
+    color: rgb(60, 60, 60);
 }
 
 /* --------------------------------------------------------Report-------------------------------------------------------- */
@@ -750,11 +771,11 @@ span{
 #footer{
     padding: 10px;
     width: 100%;
-    background: rgb(150, 120, 0);
+    background: rgb(180, 150, 0);
 }
 
 .footer-text{
-    color: rgb(0, 0, 0);
+    color: rgb(60, 60, 60);
 }
 
 }
