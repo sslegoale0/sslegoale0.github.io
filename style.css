@@ -11,7 +11,7 @@ html{
 
 body{
     background: rgb(240, 240, 240);
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 15px;
     font-weight: 400;
     text-align: left;
@@ -43,7 +43,7 @@ nav{
 .nav-link{
     margin-right: 100px;
     text-decoration: none;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 17.5px;
     font-weight: 700;
     transition: 1s;
@@ -60,7 +60,7 @@ nav{
 .nav-contact{
     margin-left: 100px;
     text-decoration: none;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 33px;
     transition: 1s;
 }
@@ -118,13 +118,13 @@ nav{
 
 .service-title{
     margin-bottom: 10px;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 17.5px;
     font-weight: 700;
 }
 
 .service-text{
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
 }
 
 /* --------------------------------------------------------About-------------------------------------------------------- */
@@ -171,7 +171,7 @@ nav{
     width: fit-content;
     background: rgb(225, 225, 225);
     text-decoration: none;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     cursor: pointer;
     transition: 1s;
 }
@@ -185,7 +185,7 @@ nav{
     padding: 20px 100px;
     width: 100%;
     background: rgb(225, 225, 225);
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
 }
 
 .about-tab{
@@ -196,7 +196,7 @@ nav{
     margin-bottom: 30px;
     margin-right: 100px;
     position: relative;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 17.5px;
     font-weight: 700;
     cursor: pointer;
@@ -301,63 +301,13 @@ nav{
 
 .project-title{
     margin-bottom: 10px;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 17.5px;
     font-weight: 700;
 }
 
 .project-text{
-    color: rgb(60, 60, 60);
-}
-
-/* --------------------------------------------------------Report-------------------------------------------------------- */
-
-#report{
-    padding: 10px 0 0 0;
-    width: 100%;
-}
-
-.report-up{
-    padding: 10px 100px;
-}
-
-.report-title{
-    margin-top: 75px;
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.report-image{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: block;
-    width: 100%;
-}
-
-.report-down{
-    padding: 20px 100px;
-    background: rgb(0, 0, 0);
-}
-
-.report-heading{
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.report-text{
-    margin-bottom: 20px;
-}
-
-.report-link{
-    text-decoration: line;
-    color: rgb(60, 60, 60);
-    font-weight: 400;
-    transition: 1s;
-}
-
-.report-link:hover{
-    color: rgb(180, 150, 0);
+    color: rgb(30, 30, 30);
 }
 
 /* --------------------------------------------------------Footer-------------------------------------------------------- */
@@ -369,7 +319,7 @@ nav{
 }
 
 .footer-text{
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
 }
 
 
@@ -391,7 +341,7 @@ html{
 
 body{
     background: rgb(240, 240, 240);
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 15px;
     font-weight: 400;
     text-align: left;
@@ -430,7 +380,7 @@ nav{
 .nav-link{
     margin-right: 0;
     text-decoration: none;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 17.5px;
     font-weight: 700;
     transition: 1s;
@@ -447,7 +397,7 @@ nav{
 .nav-contact{
     margin-left: 0;
     text-decoration: none;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 33px;
     transition: 1s;
 }
@@ -461,7 +411,7 @@ nav{
     position: absolute;
     top: 10px;
     left: 10px;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 33px;
     transition: 1s;
 }
@@ -472,7 +422,7 @@ nav{
     width: 100%;
     position: fixed;
     background: rgb(225, 225, 225);
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 33px;
     transition: 1s;
 }
@@ -528,13 +478,13 @@ nav{
 
 .service-title{
     margin-bottom: 10px;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 17.5px;
     font-weight: 700;
 }
 
 .service-text{
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
 }
 
 /* --------------------------------------------------------About-------------------------------------------------------- */
@@ -583,7 +533,7 @@ nav{
     width: fit-content;
     background: rgb(225, 225, 225);
     text-decoration: none;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     cursor: pointer;
     transition: 1s;
 }
@@ -597,7 +547,7 @@ nav{
     padding: 20px 10px;
     width: 100%;
     background: rgb(225, 225, 225);
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
 }
 
 .about-tab{
@@ -608,7 +558,7 @@ nav{
     margin-bottom: 30px;
     margin-right: 50px;
     position: relative;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 17.5px;
     font-weight: 700;
     cursor: pointer;
@@ -686,7 +636,7 @@ span{
 
 .project-link{
     text-decoration: none;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
 }
 
 .project{
@@ -709,61 +659,13 @@ span{
 
 .project-title{
     margin-bottom: 10px;
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
     font-size: 17.5px;
     font-weight: 700;
 }
 
 .project-text{
-    color: rgb(60, 60, 60);
-}
-
-/* --------------------------------------------------------Report-------------------------------------------------------- */
-
-#report{
-    padding: 10px 0 0 0;
-    width: 100%;
-}
-
-.report-up{
-    padding: 10px;
-}
-
-.report-title{
-    margin-top: 75px;
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.report-image{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: block;
-    width: 100%;
-}
-
-.report-down{
-    padding: 20px 10px;
-    background: rgb(0, 0, 0);
-}
-
-.report-heading{
-    margin-bottom: 10px;
-    color: rgb(150, 120, 0);
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.report-heading-2{
-    margin-bottom: 5px;
-    color: rgb(180, 180, 180);
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.report-text{
-    margin-bottom: 20px;
-    color: rgb(180, 180, 180);
+    color: rgb(30, 30, 30);
 }
 
 /* --------------------------------------------------------Footer-------------------------------------------------------- */
@@ -775,7 +677,7 @@ span{
 }
 
 .footer-text{
-    color: rgb(60, 60, 60);
+    color: rgb(30, 30, 30);
 }
 
 }
