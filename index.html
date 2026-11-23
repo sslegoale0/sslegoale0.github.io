@@ -3,63 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Solomon Stokie Legoale - Portfolio Website</title>
+    <title>Solomon Stokie Legoale - Data Science Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
     <script src="https://kit.fontawesome.com/e30f5a5383.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<!-- --------------------------------------------------------Header-------------------------------------------------------- -->
+<!-- --------------------------------------------Navbar-------------------------------------------- -->
 
-<div id="header">
+<div id="navbar">
     <nav>
         <ul class="nav-list">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item">
+                <p class="nav-name">Solomon Stokie Legoale</p>
+                <p class="nav-title">Survey Statistician</p>
+            </li>
         </ul>
         <ul class="nav-list">
-            <li class="nav-item"><a class="nav-contact" href="mailto:sslegoale0@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
-            <li class="nav-item"><a class="nav-contact" href="https://www.linkedin.com/in/sslegoale0"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li class="nav-item"><a class="nav-contact" href="https://www.github.com/sslegoale0"><i class="fa-brands fa-github"></i></a></li>
+            <li class="nav-item"><a class="nav-link active-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             <i id="nav-close" class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
     </nav>
 </div>
 <i id="nav-open" class="fa-solid fa-bars" onclick="openmenu()"></i>
 
-<!-- --------------------------------------------------------Home-------------------------------------------------------- -->
+<!-- --------------------------------------------Home-------------------------------------------- -->
 
-<div id="home">
-    <p class="home-name">Solomon Stokie Legoale</p>
-    <p class="home-title">Statistical Consultant</p>
+<section id="home">
+    <div class="home-left">
+        <img class="home-image" src="Solomon Stokie Legoale - Profile Picture.jpg" alt="">
+    </div>
+    <div class="home-right">
+        <p class="home-title">I plan and develop statistical projects, i.e. designing technical solutions and providing of statistical support</p>
+        <p class="home-text">I work in conjunction with clients and key stakeholders, to understand their data needs and to provide a roadmap that outlines strategic goals, phases, high-level timelines and major deliverables for statistical projects.</p>
+    </div>
+</section>
+
+<!-- --------------------------------------------About-------------------------------------------- -->
+
+<section id="about">
+    <p class="about-heading">Solomon Stokie Legoale</p>
+    <p class="about-text">Survey Statistician</p>
+    <a class="about-link" href="Solomon Stokie Legoale - Curriculum Vitae.pdf">Curriculum Vitae</a>
+    <div class="about-tab">
+        <p class="tab-link active-tab" onclick="opentab('biography')">Biography</p>
+        <p class="tab-link" onclick="opentab('education')">Education</p>
+        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+    </div>
+        <div id="biography" class="tab-contents active-contents">
+            <p class="contents-text">I am a Statistician and Data Analyst with over 4 years of experience working for Statistics South Africa, in the capacity of organisation of statistical services, and involved in data life cyle.</p>
+        </div>
+        <div id="education" class="tab-contents">
+            <p class="contents-text">After graduating from secondary school with moderately good results, I accepted a scholarship from Statistics South Africa that would see me leave for Abidjan, Côte d'Ivoire to further my studies in Statistics and Economics.</p>
+            <p class="contents-period">September 2009 - December 2011</p>
+            <p class="contents-title">Adjoint Technique de la Statistique</p>
+            <p class="contents-institution">École Nationale Supérieure de Statistique et d'Économie Appliquée (ENSEA)</p>
+            <p class="contents-location">Abidjan, Côte d'Ivoire</p>
+            <p class="contents-text">I graduated with distinction to complete a 2-year Adjoint Technique de la Statistique diplôme, and to obtain a National Diploma in Statistics, with some of the courses including Statistics, Probrability, Mathematics, Economics, Accounting, Business Management, and Computer Science.</p>
+            <p class="contents-period">September 2014 - October 2016</p>
+            <p class="contents-title">Ingénieur des Travaux Statistiques</p>
+            <p class="contents-institution">École Nationale Supérieure de Statistique et d'Économie Appliquée (ENSEA)</p>
+            <p class="contents-location">Abidjan, Côte d'Ivoire</p>
+            <p class="contents-text">I majored in Finance Analysis & Management, Analytical Accounting, Marketing & Market Research, and Management Information Systems, to complete a 2-year Ingénieur des Travaux Statistiques diplôme, that enabled me to acquire a Bachelor of Commerce Honours degree in Statistics.</p>
+        </div>
+        <div id="experience" class="tab-contents">
+            <p class="contents-text">When a civil war broke out in Côte d'Ivoire, I was forced to return to South Africa before the I could complete my courses. While I mulling over my uncertain future, I took a short-term position at Statistics South Africa in the capacity of Assistant Statistical Officer.</p>
+            <p class="contents-period">March 2011 - September 2011</p>
+            <p class="contents-title">Assistant Statistical Officer</p>
+            <p class="contents-institution">Statistics South Africa</p>
+            <p class="contents-location">Pretoria, South Africa</p>
+            <p class="contents-text">In my role as an Assistant Statistical Officer for the Quarterly Economic Survey (QES) division, I was charged with collecting financial and employment data from over a thousand companies overall, by use of questionnaires, and capturing the data into the Business Register. Additionally, I was responsible for executing data cleaning and data exploration to ensure data accuracy and completeness.</p>
+            <p class="contents-period">January 2012 - September 2014</p>
+            <p class="contents-title">Statistical Analyst</p>
+            <p class="contents-institution">Statistics South Africa</p>
+            <p class="contents-location">Pretoria, South Africa</p>
+            <p class="contents-text">As a Statistical Analyst for the Census Operations division, I contributed to strategic planning and development of 9 Census projects, and served as a coordinator and a liaison between various clusters within the organisation, to resolve organisational, logistical and budgeting issues. Furthermore, I was involved in the preliminary phase of the undertaking of these projects, where I was charged with the designing of the questionnaires and data entry systems, was involved the complete enumeration process, and participated in the collection, processing and analysis of data and in the dissemination of results. Additionally, I took part in pre and post project evaluations for these projects, where I conducted operational research to identify opportunities for process improvements in data collection, data processing and data governance in general.</p>
+            <p class="contents-period">October 2016 - December 2017</p>
+            <p class="contents-title">Survey Methodologist</p>
+            <p class="contents-institution">Statistics South Africa</p>
+            <p class="contents-location">Pretoria, South Africa</p>
+            <p class="contents-text">My work as a Survey Methodologist for the Methodology, Standards and Research division consisted of working in conjunction with various internal divisions to understand their data requirements, and to develop and implement statistical sample surveys for the collection of the required data. My responsibilities were largely in the preliminary phase of the survey process, I was accountable for the development of sampling methodologies for various economic surveys, and this work encompassed the development and maintenance sampling frames, the drawing of samples and the application of estimation methods to ensure precision of the statistical estimates for the surveys.</p>
+            <p class="contents-period">October 2016 - Present</p>
+            <p class="contents-title">Quantitative Trader / Systems Developer</p>
+            <p class="contents-institution">Self-employed / Freelance</p>
+            <p class="contents-location">Johannesburg, South Africa</p>
+            <p class="contents-text">In my work as a Retail Trader, I primarily perform technical analyses on financial instruments to identify trends and to accurately predict future price actions, and to buy or sell securities for personal profit. This consists of mostly developing and testing custom indicators and automated trading applications using MQL programming.</p>
+        </div>
+</section>
+
+<!-- --------------------------------------------Services-------------------------------------------- -->
+
+<section id="services">
+    <p class="services-heading">My Services</p>
+    <p class="services-text"></p>
     <div class="services-grid">
         <div class="service">
             <i id="service-icon" class="fa-solid fa-database"></i>
-            <p class="service-title">Database Management</p>
-            <p class="service-text">I am highly skilled in the design, development and management of relational and non-relational unstructured databases using SQL and NoSQL, and with expertise in the use of relational database management systems such as MySQL and Microsoft SQL Server.</p>
+            <p class="service-title">Organisation & Management of Statistical Services</p>
+            <p class="service-text"></p>
         </div>
         <div class="service">
             <i id="service-icon" class="fa-solid fa-magnifying-glass-chart"></i>
-            <p class="service-title">Data Analysis</p>
-            <p class="service-text">I use statistical techniques and applications (Python & Microsoft Excel) to develop analytical solutions for and to provide statistical support to clients for informed business decision-making, with a wealth of experience in data collection, cleaning, analysis and dissemination of results.</p>
+            <p class="service-title">Strategic Planning & Project Development</p>
+            <p class="service-text"></p>
         </div>
         <div class="service">
             <i id="service-icon" class="fa-solid fa-chart-pie"></i>
-            <p class="service-title">Data Visualisation</p>
-            <p class="service-text">I bring context into significant amounts of raw data through vibrant graphical visualisations and user-friendly interactive dashboards, and proficient in the use of data visualisation applications like Tableau and Microsoft Power BI.</p>
+            <p class="service-title"></p>
+            <p class="service-text"></p>
         </div>
     </div>
-</div>
+</section>
 
-<!-- --------------------------------------------------------Footer-------------------------------------------------------- -->
+<!-- --------------------------------------------Projects-------------------------------------------- -->
+
+<section id="projects">
+    <p class="projects-heading">My Projects</p>
+    <p class="projects-text"></p>
+    <div class="projects-grid">
+        <a class="project-link" href="https://www.github.com/sslegoale0/Call_Centre_Analysis_Project">
+            <div class="project">
+                <img class="project-image" src="Call Centre Analysis Dashboard.png" alt="">
+                <p class="project-title">Call Centre Analysis Project</p>
+                <p class="project-text"></p>
+            </div>
+        </a>
+        <a class="project-link" href="https://www.github.com/sslegoale0/Customer_Complaints_Analysis_Project">
+            <div class="project">
+                <img class="project-image" src="Customer Complaints Analysis Dashboard.png" alt="">
+                <p class="project-title">Customer Retention / Churn Analysis Project</p>
+                <p class="project-text">Optimised customer retention strategies for increased engagement in priority services following an in-depth analysis of 75 000+ customer complaints for Cumulus Financial, effectively using Python to observe relationships between provisions of services and customer satisfaction and retention.</p>
+            </div>
+        </a>
+        <a class="project-link" href="https://www.github.com/sslegoale0/E-Commerce_Sales_Analysis_Project">
+            <div class="project">
+                <img class="project-image" src="E-Commerce Sales Analysis Dashboard.png" alt="">
+                <p class="project-title">E-Commerce Sales Analysis Project</p>
+                <p class="project-text"></p>
+            </div>
+        </a>
+        <a class="project-link" href="https://www.github.com/sslegoale0/Human_Resources_Analysis_Project">
+            <div class="project">
+                <img class="project-image" src="Human Resources Analysis Dashboard.png" alt="">
+                <p class="project-title">Workforce Management Analysis Project</p>
+                <p class="project-text">Uncovered staffing and skill gaps after a thorough examination of recruitment patterns, employee turnover and headcount statistics from ~1 500 workforce planning records for a Human Resources department using Microsoft SQL Server and Tableau.</p>
+            </div>
+        </a>
+        <a class="project-link" href="https://www.github.com/sslegoale0/Pizza_Sales_Analysis_Project">
+            <div class="project">
+                <img class="project-image" src="Pizza Sales Analysis Dashboard.png" alt="">
+                <p class="project-title">Pizza Sales Analysis Project</p>
+                <p class="project-text"></p>
+            </div>
+        </a>
+        <a class="project-link" href="https://www.github.com/sslegoale0/Superstore_Sales_Analysis_Project">
+            <div class="project">
+                <img class="project-image" src="Superstore Sales Analysis Dashboard.png" alt="">
+                <p class="project-title">Superstore Sales Analysis Project</p>
+                <p class="project-text">Acquired business intelligence essential for improved sales by creating Microsoft Power BI dashboards, and transforming, aggregating and filtering sales data using DAX and Power Query to ensure data validity and completeness.</p>
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- --------------------------------------------Contact-------------------------------------------- -->
+
+<section id="contact">
+    <p class="contact-heading">Get In Touch</p>
+    <p class="contact-text">For any inquiries, collaborations, or just to say hello, I'd love to hear from you. Reach out and let's connect.</p>
+    <div class="contact-links">
+        <a class="contact-link" href="mailto:sslegoale0@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a class="contact-link" href="https://www.linkedin.com/in/sslegoale0"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="contact-link" href="https://www.github.com/sslegoale0"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <p class="form-text">Full name</p>
+            <input class="form-name" type="text" name="Name" placeholder="Enter your full name" required>
+            <p class="form-text">E-mail</p>
+            <input class="form-email" type="email" name="Email" placeholder="example@email.com" required>
+            <p class="form-text">Message</p>
+            <textarea class="form-message" name="message" rows="6" placeholder="Leave me a message"></textarea>
+            <button id="form-submit" type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- --------------------------------------------Footer-------------------------------------------- -->
 
 <div id="footer">
-    <p class="footer-text">Solomon Stokie Legoale - Portfolio Website © 2023</p>
+    <p class="footer-text">Copyright © 2026 Solomon Stokie Legoale - Data Science Portfolio Website.</p>
 </div>
 
 </body>

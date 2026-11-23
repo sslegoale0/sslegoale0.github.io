@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Scada", sans-serif;
+    font-family: "IBM Plex Serif", serif;
     box-sizing: border-box;
 }
 
@@ -10,22 +10,25 @@ html{
 }
 
 body{
-    background: rgb(240, 240, 240);
-    color: rgb(30, 30, 30);
-    font-size: 15px;
+    background: rgb(255 255 255);
+    color: rgb(0 0 0);
+    font-size: 17.5px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0px;
 }
 
-/* --------------------------------------------------------Header-------------------------------------------------------- */
+/* --------------------------------------------Navbar-------------------------------------------- */
 
-#header{
-    padding: 10px 100px;
+#navbar{
+    padding: 10px 150px;
     width: 100%;
+    top: 0;
+    left: 0;
     position: fixed;
-    background: rgb(225, 225, 225);
     z-index: 99;
+    background: rgb(255 255 255);
+    border-bottom: 7.5px solid rgb(150 120 0);
 }
 
 nav{
@@ -40,33 +43,52 @@ nav{
     list-style: none;
 }
 
-.nav-link{
-    margin-right: 100px;
-    text-decoration: none;
-    color: rgb(30, 30, 30);
-    font-size: 17.5px;
+.nav-name{
+    color: rgb(0 0 0);
+    font-size: 27.5px;
     font-weight: 700;
-    transition: 1s;
+}
+
+.nav-title{
+    color: rgb(0 0 0);
+}
+
+.nav-link{
+    margin-left: 75px;
+    position: relative;
+    text-decoration: none;
+    color: rgb(0 0 0);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.nav-link::after{
+    content: "";
+    width: 0;
+    height: 2.5px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: rgb(150 120 0);
+    transition: 2s;
 }
 
 .nav-link:hover{
-    color: rgb(180, 150, 0);
+    color: rgb(150 120 0);
+}
+
+.nav-link:hover::after{
+    width: 100%;
 }
 
 .active-link{
-    color: rgb(180, 150, 0);
+    color: rgb(150 120 0);
 }
 
-.nav-contact{
-    margin-left: 100px;
-    text-decoration: none;
-    color: rgb(30, 30, 30);
-    font-size: 33px;
-    transition: 1s;
-}
-
-.nav-contact:hover{
-    color: rgb(180, 150, 0);
+.active-link::after{
+    width: 100%;
 }
 
 #nav-close{
@@ -77,145 +99,109 @@ nav{
     display: none;
 }
 
-/* --------------------------------------------------------Home-------------------------------------------------------- */
+/* --------------------------------------------Home-------------------------------------------- */
 
 #home{
-    padding: 10px 100px;
+    padding: 157.5px 100px 100px 100px;
     width: 100%;
-}
-
-.home-name{
-    margin-top: 75px;
-    font-size: 72px;
-    font-weight: 700;
-}
-
-.home-title{
-    margin-bottom: 40px;
-    color: rgb(180, 150, 0);
-    font-size: 54px;    
-}
-
-.services-grid{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 25px;
-}
-
-.service{
-    padding: 25px;
-    border: 3.75px solid rgb(225, 225, 225);
-    background: rgb(240, 240, 240);
-}
-
-#service-icon{
-    margin-bottom: 25px;
-    color: rgb(180, 150, 0);
-    font-size: 120px;
-}
-
-.service-title{
-    margin-bottom: 10px;
-    color: rgb(30, 30, 30);
-    font-size: 17.5px;
-    font-weight: 700;
-}
-
-.service-text{
-    color: rgb(30, 30, 30);
-}
-
-/* --------------------------------------------------------About-------------------------------------------------------- */
-
-#about{
-    padding: 10px 0px 0px 0px;
-    width: 100%;
-}
-
-.about-up{
-    margin-top: 75px;
+    background: rgb(0 0 0);
+    color: rgb(255 255 255);
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
-.about-left{
-    flex-basis: 30%;
+.home-left{
+    flex-basis: 35%;
 }
 
-.about-image{
+.home-image{
     display: block;
     width: 100%;
 }
 
-.about-right{
-    flex-basis: 67.5%;
+.home-right{
+    flex-basis: 62.5%;
 }
 
-.about-name{
-    font-size: 54px;
+.home-title{
+    margin: 0 0 25px 0;
+    font-size: 37.5px;
     font-weight: 700;
 }
 
-.about-title{
-    margin-bottom: 40px;
-    color: rgb(180, 150, 0);
-    font-size: 48px;
+.home-text{
+    margin: 0 0 50px 0;
+    font-size: 20px;
+}
+
+/* --------------------------------------------About-------------------------------------------- */
+
+#about{
+    padding: 50px 350px 100px 350px;
+    width: 100%;
+}
+
+.about-heading{
+    font-size: 47.5px;
+    font-weight: 700;
+}
+
+.about-text{
+    margin: 0 0 50px 0;
+    color: rgb(150 120 0);
+    font-size: 37.5px;
 }
 
 .about-link{
     padding: 20px 25px;
     width: fit-content;
-    background: rgb(225, 225, 225);
+    border-radius: 7.5px;
     text-decoration: none;
-    color: rgb(30, 30, 30);
+    background: rgb(0 0 0);
+    color: rgb(255 255 255);
+    font-size: 15px;
+    font-weight: 500;
     cursor: pointer;
-    transition: 1s;
+    transition: 2s;
 }
 
 .about-link:hover{
-    background: rgb(180, 150, 0);
+    background: rgb(150 120 0);
 }
 
-.about-down{
-    margin: 60px 0 0 0;
-    padding: 20px 100px;
-    width: 100%;
-    background: rgb(225, 225, 225);
-    color: rgb(30, 30, 30);
-}
 
 .about-tab{
+    padding: 100px 0 50px 0 ;
     display: flex;
 }
 
+
 .tab-link{
-    margin-bottom: 30px;
-    margin-right: 100px;
+    margin: 0 100px 0 0;
     position: relative;
-    color: rgb(30, 30, 30);
-    font-size: 17.5px;
-    font-weight: 700;
+    color: rgb(0 0 0);
+    font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
-    transition: 1s;
+    transition: 2s;
 }
 
 .tab-link::after{
     content: "";
     width: 0;
-    height: 3.5px;
+    height: 2.5px;
     position: absolute;
     left: 0;
     bottom: -10px;
-    background: rgb(180, 150, 0);
-    transition: 1s;
+    background: rgb(150 120 0);
+    transition: 2s;
 }
 
 .tab-link:hover{
-    color: rgb(180, 150, 0);
+    color: rgb(150 120 0);
 }
 
 .tab-link:hover::after{
@@ -223,7 +209,7 @@ nav{
 }
 
 .active-tab{
-    color: rgb(180, 150, 0);
+    color: rgb(150 120 0);
 }
 
 .active-tab::after{
@@ -238,59 +224,119 @@ nav{
     display: block;
 }
 
+.contents-text{
+    margin: 0 0 50px 0;
+}
+
 .contents-period{
-    margin-bottom: 5px;
-    font-weight: 700;
+    margin: 0 0 5px 0;
+    color: rgb(150 120 0);
+    font-weight: 500;
 }
 
 .contents-title{
+    margin: 0 0 5px 0;
+    font-weight: 700;
+}
+
+.contents-institution{
+    margin: 0 0 5px 0;
+    font-weight: 600;
+}
+
+.contents-location{
+    margin: 0 0 25px 0;
+    font-weight: 500;
+}
+
+/* --------------------------------------------Services-------------------------------------------- */
+
+#services{
+    padding: 50px 150px 100px 150px;
+    width: 100%;
+    background: rgb(0 0 0);
+    color: rgb(255 255 255);
+}
+
+.services-heading{
+    margin: 0 0 25px 0;
+    font-size: 37.5px;
+    font-weight: 700;
+}
+
+.services-text{
+    margin: 0 0 50px 0;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+}
+
+.service{
+    padding: 25px;
+    border-radius: 7.5px;
+    background: rgb(255 255 255);
+    color: rgb(0 0 0);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.service:hover{
+    background: rgb(150 120 0);
+}
+
+#service-icon{
+    margin-bottom: 25px;
+    font-size: 120px;
+    transition: 2s;
+}
+
+.service-title{
     margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
-.title{
-    color: rgb(180, 150, 0);
-    font-weight: 700;
-}
+/* --------------------------------------------Projects-------------------------------------------- */
 
-.text{
-    font-weight: 700;
-}
-
-.contents-text{
-    margin-bottom: 20px;
-}
-
-
-/* --------------------------------------------------------Portfolio-------------------------------------------------------- */
-
-#portfolio{
-    padding: 10px 100px;
+#projects{
+    padding: 50px 100px 100px 100px;
     width: 100%;
 }
 
+.projects-heading{
+    margin: 0 0 25px 0;
+    font-size: 37.5px;
+    font-weight: 700;
+}
+
+.projects-text{
+    margin: 0 0 50px 0;
+}
+
 .projects-grid{
-    margin-top: 75px;
-    margin-bottom: 20px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 50px;
 }
 
 .project-link{
     text-decoration: none;
-    color: rgb(180, 180, 180);
+    color: rgb(255 255 255);
 }
 
 .project{
     padding: 25px;
     height: 100%;
-    border: 3.75px solid rgb(225, 225, 225);
-    background: rgb(240, 240, 240);
-    transition: 1s;
+    background: rgb(0 0 0);
+    border-radius: 7.5px;
+    transition: 2s;
 }
 
 .project:hover{
-    border: 3.75px solid rgb(180, 150, 0);
+    background: rgb(150 120 0);
 }
 
 .project-image{
@@ -301,37 +347,128 @@ nav{
 
 .project-title{
     margin-bottom: 10px;
-    color: rgb(30, 30, 30);
-    font-size: 17.5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* --------------------------------------------Contacts-------------------------------------------- */
+
+#contact{
+    padding: 50px 450px 100px 450px;
+    width: 100%;
+    background: rgb(0 0 0);
+    color: rgb(255 255 255);
+}
+
+.contact-heading{
+    margin: 0 0 25px 0;
+    font-size: 37.5px;
     font-weight: 700;
 }
 
-.project-text{
-    color: rgb(30, 30, 30);
+.contact-text{
+    margin: 0 0 50px 0;
 }
 
-/* --------------------------------------------------------Footer-------------------------------------------------------- */
+
+.contact-links{
+    padding: 0 0 25px 0;
+}
+
+.contact-link{
+    margin: 0 75px 0 0;
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-size: 40px;
+    transition: 2s;
+}
+
+.contact-link:hover{
+    color: rgb(150 120 0);
+}
+
+.form-text{
+    margin: 25px 0 5px 0;
+}
+
+.form-name{
+    margin: 0 0 10px 0;
+    padding: 25px;
+    width: 100%;
+    border: 0;
+    border-radius: 7.5px;
+    outline: none;
+    font-size: 17.5px;
+}
+
+.form-email{
+    margin: 0 0 10px 0;
+    padding: 25px;
+    width: 100%;
+    border: 0;
+    border-radius: 7.5px;
+    outline: none;
+    font-size: 17.5px;
+}
+
+.form-message{
+    margin: 0 0 25px 0;
+    padding: 25px;
+    width: 100%;
+    border: 0;
+    border-radius: 7.5px;
+    outline: none;
+    font-size: 17.5px;
+}
+
+#form-submit{
+    padding: 20px 30px;
+    width: fit-content;
+    display: block;
+    background: rgb(150 120 0);
+    border: none;
+    border-radius: 7.5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 2s ease;
+}
+
+
+#form-submit:hover{
+    background: rgb(120 90 0);
+}
+
+#form-submit.clicked{
+    background: rgb(120 90 0);
+}
+
+/* --------------------------------------------Footer-------------------------------------------- */
 
 #footer{
-    padding: 10px 100px;
+    padding: 20px 350px;
     width: 100%;
-    background: rgb(180, 150, 0);
+    background: rgb(150 120 0);
 }
 
 .footer-text{
-    color: rgb(30, 30, 30);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
 }
 
 
 
-/* --------------------------------------------------------CSS for Small Screens-------------------------------------------------------- */
+/* --------------------------------------------CSS for Small Screens-------------------------------------------- */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:600px) {
 
 *{
     margin: 0;
     padding: 0;
-    font-family: "Scada", sans-serif;
+    font-family: "IBM Plex Serif", serif;
     box-sizing: border-box;
 }
 
@@ -340,27 +477,28 @@ html{
 }
 
 body{
-    background: rgb(240, 240, 240);
-    color: rgb(30, 30, 30);
-    font-size: 15px;
+    background: rgb(255 255 255);
+    color: rgb(0 0 0);
+    font-size: 17.5px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0px;
 }
 
+/* --------------------------------------------Navbar-------------------------------------------- */
 
-/* --------------------------------------------------------Header-------------------------------------------------------- */
-
-#header{
-    padding: 10px;
-    width: 120px;
+#navbar{
+    padding: 25px;
+    width: 200px;
     height: 100%;
     top: 0;
-    left: -120px;
+    left: -200px;
     position: fixed;
-    background: rgb(225, 225, 225);
     z-index: 99;
-    transition: 1s;
+    background: rgb(255 255 255);
+    border-bottom: none;
+    border-right: 7.5px solid rgb(150 120 0);
+    transition: 2s;
 }
 
 nav{
@@ -377,33 +515,54 @@ nav{
     list-style: none;
 }
 
-.nav-link{
+.nav-name{
     margin-right: 0;
-    text-decoration: none;
-    color: rgb(30, 30, 30);
-    font-size: 17.5px;
+    color: rgb(0 0 0);
+    font-size: 27.5px;
     font-weight: 700;
-    transition: 1s;
+}
+
+.nav-title{
+    color: rgb(0 0 0);
+    font-size: 20px;
+}
+
+.nav-link{
+    margin-left: 0;
+    position: relative;
+    text-decoration: none;
+    color: rgb(0 0 0);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.nav-link::after{
+    content: "";
+    width: 0;
+    height: 2.5px;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: rgb(150 120 0);
+    transition: 2s;
 }
 
 .nav-link:hover{
-    color: rgb(180, 150, 0);
+    color: rgb(150 120 0);
+}
+
+.nav-link:hover::after{
+    width: 100%;
 }
 
 .active-link{
-    color: rgb(180, 150, 0);
+    color: rgb(150 120 0);
 }
 
-.nav-contact{
-    margin-left: 0;
-    text-decoration: none;
-    color: rgb(30, 30, 30);
-    font-size: 33px;
-    transition: 1s;
-}
-
-.nav-contact:hover{
-    color: rgb(180, 150, 0);
+.active-link::after{
+    width: 100%;
 }
 
 #nav-close{
@@ -411,9 +570,9 @@ nav{
     position: absolute;
     top: 10px;
     left: 10px;
-    color: rgb(30, 30, 30);
-    font-size: 33px;
-    transition: 1s;
+    font-size: 37.5px;
+    cursor: pointer;
+    transition: 2s;
 }
 
 #nav-open{
@@ -421,163 +580,118 @@ nav{
     padding: 10px;
     width: 100%;
     position: fixed;
-    background: rgb(225, 225, 225);
-    color: rgb(30, 30, 30);
-    font-size: 33px;
-    transition: 1s;
+    background: rgb(255 255 255);
+    color: rgb(0 0 0);
+    font-size: 37.5px;
+    cursor: pointer;
+    transition: 2s;
 }
 
 #nav-close:hover{
-    color: rgb(180, 150, 0);
+    color: rgb(150 120 0);
 }
 
 #nav-open:hover{
-    color: rgb(180, 150, 0);
+    color: rgb(150 120 0);
 }
 
 
-
-/* --------------------------------------------------------Home-------------------------------------------------------- */
+/* --------------------------------------------Home-------------------------------------------- */
 
 #home{
-    padding: 10px;
+    padding: 82.5px 25px 50px 25px;
     width: 100%;
-}
-
-.home-name{
-    margin-top: 75px;
-    font-size: 72px;
-    font-weight: 700;
-}
-
-.home-title{
-    margin-bottom: 40px;
-    color: rgb(180, 150, 0);
-    font-size: 54px;
-}
-
-.services-grid{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 25px;
-}
-
-.service{
-    padding: 25px;
-    border: 3.75px solid rgb(225, 225, 225);
-    background: rgb(240, 240, 240);
-}
-
-#service-icon{
-    margin-bottom: 25px;
-    color: rgb(180, 150, 0);
-    font-size: 120px;
-}
-
-.service-title{
-    margin-bottom: 10px;
-    color: rgb(30, 30, 30);
-    font-size: 17.5px;
-    font-weight: 700;
-}
-
-.service-text{
-    color: rgb(30, 30, 30);
-}
-
-/* --------------------------------------------------------About-------------------------------------------------------- */
-
-#about{
-    padding: 10px 0 0 0;
-    width: 100%;
-}
-
-.about-up{
-    margin-top: 75px;
-    padding: 10px;
+    background: rgb(0 0 0);
+    color: rgb(255 255 255);
     display: block;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
-.about-left{
-    flex-basis: 30%;
-}
-
-.about-image{
-    margin-bottom: 25px;
+.home-image{
     display: block;
     width: 100%;
 }
 
-.about-right{
-    flex-basis: 67.5%;
-}
-
-.about-name{
-    font-size: 54px;
+.home-title{
+    margin: 25px 0;
+    font-size: 37.5px;
     font-weight: 700;
 }
 
-.about-title{
-    margin-bottom: 40px;
-    color: rgb(180, 150, 0);
-    font-size: 48px;
+.home-text{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* --------------------------------------------About-------------------------------------------- */
+
+#about{
+    padding: 25px 25px 50px 25px;
+    width: 100%;
+}
+
+.about-heading{
+    font-size: 47.5px;
+    font-weight: 700;
+}
+
+.about-text{
+    margin: 0 0 50px 0;
+    color: rgb(150 120 0);
+    font-size: 37.5px;
 }
 
 .about-link{
     padding: 20px 25px;
     width: fit-content;
-    background: rgb(225, 225, 225);
+    border-radius: 7.5px;
     text-decoration: none;
-    color: rgb(30, 30, 30);
+    background: rgb(0 0 0);
+    color: rgb(255 255 255);
+    font-size: 15px;
+    font-weight: 500;
     cursor: pointer;
-    transition: 1s;
+    transition: 2s;
 }
 
 .about-link:hover{
-    background: rgb(180, 150, 0);
+    background: rgb(150 120 0);
 }
 
-.about-down{
-    margin: 60px 0 0 0;
-    padding: 20px 10px;
-    width: 100%;
-    background: rgb(225, 225, 225);
-    color: rgb(30, 30, 30);
-}
 
 .about-tab{
+    padding: 100px 0 50px 0 ;
     display: flex;
 }
 
+
 .tab-link{
-    margin-bottom: 30px;
-    margin-right: 50px;
+    margin: 0 25px 0 0;
     position: relative;
-    color: rgb(30, 30, 30);
-    font-size: 17.5px;
-    font-weight: 700;
+    color: rgb(0 0 0);
+    font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
-    transition: 1s;
+    transition: 2s;
 }
 
 .tab-link::after{
     content: "";
     width: 0;
-    height: 3.75px;
+    height: 2.5px;
     position: absolute;
     left: 0;
     bottom: -10px;
-    background: rgb(180, 150, 0);
-    transition: 1s;
+    background: rgb(150 120 0);
+    transition: 2s;
 }
 
 .tab-link:hover{
-    color: rgb(180, 150, 0);
+    color: rgb(150 120 0);
 }
 
 .tab-link:hover::after{
@@ -585,7 +699,7 @@ nav{
 }
 
 .active-tab{
-    color: rgb(150, 120, 0);
+    color: rgb(150 120 0);
 }
 
 .active-tab::after{
@@ -600,55 +714,119 @@ nav{
     display: block;
 }
 
+.contents-text{
+    margin: 0 0 75px 0;
+}
+
 .contents-period{
-    margin-bottom: 5px;
-    font-weight: 700;
+    margin: 0 0 5px 0;
+    color: rgb(150 120 0);
+    font-weight: 500;
 }
 
 .contents-title{
-    margin-bottom: 10px;
-}
-
-span{
-    color: rgb(150, 120, 0);
+    margin: 0 0 5px 0;
     font-weight: 700;
 }
 
-.contents-text{
-    margin-bottom: 20px;
+.contents-institution{
+    margin: 0 0 5px 0;
+    font-weight: 600;
 }
 
+.contents-location{
+    margin: 0 0 25px 0;
+    font-weight: 500;
+}
 
-/* --------------------------------------------------------Portfolio-------------------------------------------------------- */
+/* --------------------------------------------Services-------------------------------------------- */
 
-#portfolio{
-    padding: 10px;
+#services{
+    padding: 25px 25px 50px 25px;
+    width: 100%;
+    background: rgb(0 0 0);
+    color: rgb(255 255 255);
+}
+
+.services-heading{
+    margin: 0 0 25px 0;
+    font-size: 37.5px;
+    font-weight: 700;
+}
+
+.services-text{
+    margin: 0 0 50px 0;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+}
+
+.service{
+    padding: 25px;
+    border-radius: 7.5px;
+    background: rgb(255 255 255);
+    color: rgb(0 0 0);
+    cursor: pointer;
+    transition: 2s;
+}
+
+.service:hover{
+    background: rgb(150 120 0);
+}
+
+#service-icon{
+    margin-bottom: 25px;
+    font-size: 120px;
+    transition: 2s;
+}
+
+.service-title{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* --------------------------------------------Projects-------------------------------------------- */
+
+#projects{
+    padding: 25px 25px 50px 25px;
     width: 100%;
 }
 
+.projects-heading{
+    margin: 0 0 25px 0;
+    font-size: 37.5px;
+    font-weight: 700;
+}
+
+.projects-text{
+    margin: 0 0 50px 0;
+}
+
 .projects-grid{
-    margin-top: 75px;
-    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 25px;
+    grid-gap: 50px;
 }
 
 .project-link{
     text-decoration: none;
-    color: rgb(30, 30, 30);
+    color: rgb(255 255 255);
 }
 
 .project{
     padding: 25px;
     height: 100%;
-    border: 3.75px solid rgb(225, 225, 225);
-    background: rgb(240, 240, 240);
-    transition: 1s;
+    background: rgb(0 0 0);
+    border-radius: 7.5px;
+    transition: 2s;
 }
 
 .project:hover{
-    border: 7.5px solid rgb(180, 150, 0);
+    background: rgb(150 120 0);
 }
 
 .project-image{
@@ -659,25 +837,116 @@ span{
 
 .project-title{
     margin-bottom: 10px;
-    color: rgb(30, 30, 30);
-    font-size: 17.5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* --------------------------------------------Contacts-------------------------------------------- */
+
+#contact{
+    padding: 25px 25px 50px 25px;
+    width: 100%;
+    background: rgb(0 0 0);
+    color: rgb(255 255 255);
+}
+
+.contact-heading{
+    margin: 0 0 25px 0;
+    font-size: 37.5px;
     font-weight: 700;
 }
 
-.project-text{
-    color: rgb(30, 30, 30);
+.contact-text{
+    margin: 0 0 50px 0;
 }
 
-/* --------------------------------------------------------Footer-------------------------------------------------------- */
+
+.contact-links{
+    padding: 0 0 25px 0;
+}
+
+.contact-link{
+    margin: 0 75px 0 0;
+    text-decoration: none;
+    color: rgb(255 255 255);
+    font-size: 40px;
+    transition: 2s;
+}
+
+.contact-link:hover{
+    color: rgb(150 120 0);
+}
+
+.form-text{
+    margin: 25px 0 5px 0;
+}
+
+.form-name{
+    margin: 0 0 10px 0;
+    padding: 25px;
+    width: 100%;
+    border: 0;
+    border-radius: 7.5px;
+    outline: none;
+    font-size: 17.5px;
+}
+
+.form-email{
+    margin: 0 0 10px 0;
+    padding: 25px;
+    width: 100%;
+    border: 0;
+    border-radius: 7.5px;
+    outline: none;
+    font-size: 17.5px;
+}
+
+.form-message{
+    margin: 0 0 25px 0;
+    padding: 25px;
+    width: 100%;
+    border: 0;
+    border-radius: 7.5px;
+    outline: none;
+    font-size: 17.5px;
+}
+
+#form-submit{
+    padding: 20px 30px;
+    width: fit-content;
+    display: block;
+    background: rgb(150 120 0);
+    border: none;
+    border-radius: 7.5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 2s ease;
+}
+
+
+#form-submit:hover{
+    background: rgb(120 90 0);
+}
+
+#form-submit.clicked{
+    background: rgb(120 90 0);
+}
+
+/* --------------------------------------------Footer-------------------------------------------- */
 
 #footer{
-    padding: 10px;
+    padding: 10px 25px;
     width: 100%;
-    background: rgb(180, 150, 0);
+    background: rgb(150 120 0);
 }
 
 .footer-text{
-    color: rgb(30, 30, 30);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
 }
 
 }
